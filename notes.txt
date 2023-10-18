@@ -1,0 +1,23 @@
+
+
+
+
+ 
+ 9993  brew install --cask flipper
+ 
+ SEARCH:  expo 'RN Perf monitor' plugin not supported by the selected application (iOS)
+
+-D expo-community-flipper react-native-flipper react-devtools-core
+
+
+RN perf monitor (rn-perf-monitor@0.5.1): plugin 'rn perf monitor' is not available because no application is currently selected 
+Failed while retrieving marketplace plugins SyntaxError: Unexpected token < in JSON at position 0
+
+npm -D react-native-flipper-performance-plugin
+
+SDK 49                                  SDK 48
+"expo-dev-client": "~2.4.11",           "expo-dev-client": "~2.2.1",
+
+"react-devtools-core": "^4.28.4",       "react-devtools-core": "^4.27.8",
+"react-native-flipper": "^0.212.0"       "react-native-flipper": "^0.192.0"
+"expo-community-flipper": "^48.0.1"      "expo-community-flipper": "^48.0.1"

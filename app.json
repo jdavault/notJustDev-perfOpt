@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "notJustdev Performance Optimzation",
+    "slug": "not-just-dev-perf-opt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [["expo-community-flipper"], ["react-native-flipper-performance-plugin"]],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jdavault01.not-just-dev-perf-opt"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa3b948f-577f-4d93-a61e-ca93c99ce861"
+      }
+    }
+  }
+}
